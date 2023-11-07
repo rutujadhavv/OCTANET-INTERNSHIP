@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bakery Shop Landing Page</title>
+   <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="stylee.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="logo.PNG"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+         <!-- <a href="#benefits" class="nav-link">BENEFITS</a> -->
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec"><!-- class="flexible home-sec"> -->
+        <div class="eye-grabber-img">
+          <img src="image1.png" alt="Image of bakery " />
+        </div>
+        <div class="eye-grabber">
+          <h1><b><center>Fresh, Healthy, Delicious.</h1></b></center>
+          <h2><center>
+            100% Homemade, Organic, various varieties of Cakes,cookies,Chocolates Baked in Nashik.
+          </h2></center>
+          <center><button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button></center>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h1 class="section-heading">ABOUT US</h1>
+        <div class="sec-content-div flexible">
+          <p>Baking is the passion. Come and visit - your taste buds will thank you...!!
+			The perfect way to celebrate life because everyone desreves a little sweetness.
+            We are a group of people with decades of experience in baking and
+            selling cakes. We know what a good cakes looks like and how they
+            are bake with Love. our cakes are a unique quality, look, taste, 
+			flavor, size and color.
+          </p>
+          <img src="image2.png" alt="the cover photo" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLw5jf1WrjEzH5yHGb8d79luWKL_GiHkiCNg&usqp=CAU&reload=on" 
+					alt="photo of ice cake" />
+            <h4>Ice Cake</h4>
+            <p>
+              Cake is so delicious, its sure to make your day.All types of cakes are available as per the order.
+				Birthday cakes as per the orders.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+				src="https://media-cdn.tripadvisor.com/media/photo-s/15/bd/cb/7c/cookies.jpg" 
+				alt="photo of Cookiess"
+            />
+            <h4>Cookies</h4>
+            <p>
+              A small, rounded, very crispy, sweet and different variety of cookies that made with love.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="https://4.imimg.com/data4/IU/VM/MY-22947785/confectionary-items-250x250.jpg" 
+			alt="photo of Chocolates" />
+            <h4>Chocolates</h4>
+            <p>
+              A little bit of heaven in every bite.The taste of Happiness.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3vl8NNln1d0upS4CJqhmXc4t_FN6fWwKvig&usqp=CAU" 
+			alt="photo of Gluten Free Cookies" />
+            <h4>Gluten Free Cookies</h4>
+            <p>
+              The Cookies are so delicious, you'll forgot they're gluton-free.Cookies that everyone can
+			  enjoy,regardless of dietary restrictions.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="data:image/jpeg;base64,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" 
+			alt="photo of cheese cake" />
+            <h4>Cheese Cakes</h4>
+            <p>
+              The World's favorite dessert.The perfect dessert for any occasion.made with love and care.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBPSIKkT9Lbrw-T_BEmXxOi42KkmXM6YavSQ&usqp=CAU" 
+					alt="pestries" />
+            <h4>Pestries</h4>
+            <p>
+				We use only the finest and freshest ingredients to create pastries that will warm your heart.
+				Available all types of Pestries.
+
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We deliver fresh cakes with a 100% guarantee of freshness.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your orders as fast as possible, delivery procedure
+                begins as soon as possible.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We do our best to make
+                your purchase experience smooth. But if we mess up somehow you
+                will get compensated for every inconvenience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+     <!-- <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">BENEFITS</h3>
+        <div class="sec-content-div flexible">
+          <iframe
+            id="video"
+            width="560"
+            title="Benefits of Apple"
+            height="315"
+            src="https://www.youtube.com/embed/W_JOJNztrnI"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>-->
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Rutuja Jadhav</a>
+    </footer>
+  </body>
+</html>
